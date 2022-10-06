@@ -1,0 +1,126 @@
+/*CONFIGURAÇÃO PADRÃO*/
+/* (*) = Todo o Doc */
+*{
+    margin: 0px;
+    padding: 0px;
+    /*box-sizing: border-box;*/
+}
+body {
+    /*height: 100%;*/
+    margin: 0;
+    background-color: darkgray;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/*CONFIGURAÇÃO PADRÃO*/
+
+/*HEADER=Cabeçalho*/
+header{
+    background-color: orange;
+    top: 0%;
+    width: 100%;
+    position: fixed;
+    list-style: none;
+    text-align: center;
+}
+.menu{
+    font-size: 13px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #fff;
+    margin-bottom: 5px;
+}
+span{
+    color: #fff;
+}
+h1{
+    color: rgb(136, 133, 133);
+}
+/*HEADER=Cabeçalho*/
+
+
+.orangespan{
+    color: orange;
+}
+.leiamais{
+    color: orange;
+}
+
+/* (.) = criação de uma classe */
+/* DIREITA */
+.sidebar{
+    padding: 2%;
+/*height: 100%;*/
+    margin-top: 2%;
+    width: 30%;
+    float: right;
+}
+div.sidebar.h4{
+    color:dimgray;
+}
+.leiamais{
+    color:orange;
+}
+
+.box3{
+    background-color: #fff;
+    width: 45%;
+}
+.box3 h4{
+    background-color: rgb(190, 190, 190);
+}
+
+.box3 a{
+    text-decoration: none;
+    color: orange;
+}
+
+.box3 ul{
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+}
+
+
+
+/*DIREITA*
+
+/*CONTENT=Conteúdo*/
+.content{
+    padding: 2%;
+    width: 40%;
+    display: inline-block;
+    margin: auto;
+}
+.post{
+    height: 100%;
+    background-color: #fff;
+    margin-top: 30px;
+}
+.post img{
+
+    padding: 2.5%;
+    height: 95%;
+    width: 95%;
+
+}
+
+/* CONTEÚDO */
+
+
+/* ESQUERDA */
+.left{
+    float: left;
+    width: 20%;
+
+}
+/* ESQUERDA */
+
+/*FOOTER=Rodapé*/
+footer {
+    background-color: darkslategray;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: bold;    
+}
+/*FOOTER=Rodapé*/
+
